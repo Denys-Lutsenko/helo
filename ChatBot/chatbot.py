@@ -15,4 +15,11 @@ while True:
         remainder7 = int(input())
         age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105
         print("Your age is ", age, " that's a good time to start programming!")
+        print('Now I will prove to you that I can count to any number you want. You want to test?')
+        number = int(input())
+        i = None
+        for i in range(number + 1):
+            print(i, "!")
+        else:
+            print('Completed, have a nice day!')
         break
